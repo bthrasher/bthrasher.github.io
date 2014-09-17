@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>The Height Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="The Height Calculator">
+	<meta name="author" content="Bridget Thrasher">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>The Height Calculator</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
+    <h2>The Height Calculator</h2>
+    <h2>A Shiny Application</h2>
+
+<h3>by Bridget Thrasher</h3>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>Objective</h2>
+    <h1>This Shiny application predicts a son&#39;s height based on the height of his father</h1>
+
+<ul>
+<li>Simple, dynamic interface<br></li>
+<li>Based on widely-used data<br></li>
+<li>Returns 95% confidence interval</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>Data</h2>
+    <h1>The data used in this application were collected by Karl Pearson in 1903</h1>
+
+<ul>
+<li>1,078 pairs of father and son heights<br></li>
+<li>Linear regression model yields statistically significant relationship between the variables:<br>
+
+<ul>
+<li>p-value = 1.1213 &times; 10<sup>-69</sup> </li>
+</ul></li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>Prediction Model Plot</h2>
+    <h1>Linear regression (blue line) not 1:1 relationship (black line):</h1>
+
+<p><img src="assets/fig/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" /></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>Application Usage and Outcome</h2>
+    <ul>
+<li>Enter father&#39;s height in inches into the text box<br></li>
+<li>Lower and upper bounds of 95% confidence interval of son&#39;s height prediction displayed<br></li>
+</ul>
+
+<p><img src="images/shinyAppSS.jpg" alt="App screenshot"></p>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>
